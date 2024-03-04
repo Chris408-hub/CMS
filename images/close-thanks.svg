@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.54 53.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #E1BCC3;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <g id="close-thanks">
+      <line id="_直线_37" data-name="直线 37" class="cls-1" x1="51.77" y1="1.77" x2="1.77" y2="51.77"/>
+      <line id="_直线_38" data-name="直线 38" class="cls-1" x1="1.77" y1="1.77" x2="51.77" y2="51.77"/>
+    </g>
+  </g>
+</svg>

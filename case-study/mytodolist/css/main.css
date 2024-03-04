@@ -1,0 +1,158 @@
+/* reset all of the defaults to 0 so that you can write your OWN css */
+/* don't rely on the built-in browser defaults */
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: rgba(159, 146, 146, .8);
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: white;
+}
+
+header {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 150px;   
+}
+
+header::after{
+    content:"";
+    position:absolute; 
+    background: url(../images/todolist.webp) repeat-x;
+
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index:-1;
+}
+
+header>h1 {
+    font-size: 100px;
+    color: white;
+    padding: 35px;
+    opacity: 100%;
+}
+
+article {
+    width: 25%;
+    border: 4px solid white;
+    border-radius: 8px;
+    position: relative;
+    display: inline-block;
+    margin: 60px 12px;
+
+    text-align: left;
+}
+
+main {
+    text-align: center;
+}
+
+article>h2 {
+    padding: 14px 8px;
+    opacity: 1;
+
+}
+
+#todo h2 {
+    color: #fec9ce;
+}
+
+article:first-of-type {
+    border: 4px solid #fec9ce;
+}
+
+#inprogress {
+    border: 4px solid #f4e8b3;
+}
+
+#inprogress h2 {
+    color: #f4e8b3;
+}
+
+#done {
+    border: 4px solid #e9f5e6;
+}
+
+#done h2 {
+    color: #e9f5e6;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+ul li {
+    padding: 6px 8px;
+    text-transform: uppercase;
+}
+
+input[type="checkbox"] {
+    margin-left: 8px;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '';
+    width: 120px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #b5c6ff;
+
+    position: absolute;
+    top: 5px;
+    right: 12px;
+    font-size: 1.5em;
+    color: gray;
+    line-height: 50px;
+    padding-left: 10px;
+
+    animation: fadeIn 0.7s;
+}
+
+.inprogress input[type="checkbox"]:checked::after {
+    content: 'Almost done:)';
+    width: 120px;
+    background-color: #b5c6ff;
+}
+
+.done input[type="checkbox"]:checked::after {
+    content: 'Well done:)';
+    width: 100px;
+    background-color: #9bf5fe;
+}
+
+
+.todo li:nth-child(odd) {
+    background-color: #fec9ce;
+}
+
+.inprogress li:nth-child(odd) {
+    background-color: #f4e8b3;
+}
+
+.done li:nth-child(odd) {
+    background-color: #e9f5e6;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

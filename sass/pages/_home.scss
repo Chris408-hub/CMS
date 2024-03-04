@@ -1,0 +1,72 @@
+@use '../abstracts' as a;
+
+#intro {
+    // background: url('/images/bg.jpeg') no-repeat center center fixed;
+    margin:50px 20px;
+    position: relative;
+
+    p{
+        line-height: 50px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    .underline {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-position: under;
+        text-decoration-color: a.$btn-hover;
+        padding-bottom: 5px; 
+        margin-bottom: 5px;
+   
+    }
+
+}
+    .self-image-hat{
+    position: absolute;
+    max-width: 45%;
+    height: auto;
+    z-index:-333;
+    top:100%;
+    right:-25px;
+ 
+
+    }
+
+@media screen and (min-width: 768px) {
+ .self-image-hat{
+    max-width: 35%;
+    height: auto;
+    z-index:-333;
+    top:70%;
+ 
+
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+ .self-image-hat{
+    max-width: 30%;
+    height: auto;
+    z-index:-333;
+    top:30%;
+ 
+
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    #index-main-nav {
+        a{
+        width: 150px;
+        height: 100px;
+        line-height: 3;
+        font-size: 20px;
+    }
+}
+
+
+}

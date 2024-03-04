@@ -1,0 +1,22 @@
+#thanks-light-box{
+    display: flex;
+    justify-content:space-around;
+    #close-btn{
+        background-color: transparent;
+        border: none;
+        width: 50px;
+        height: 50px;
+    }
+
+    p{
+        margin: 200px auto;
+        line-height: 30px;
+    }
+    .heart-icon{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    
+    }
+
+}

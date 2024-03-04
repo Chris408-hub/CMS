@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c30d23;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="firecracker">
+    <g>
+      <g>
+        <circle class="cls-1" cx="49.5" cy="49.5" r="49"/>
+        <text/>
+      </g>
+      <g>
+        <g>
+          <line class="cls-2" x1="82.95" y1="13.54" x2="18.92" y2="78.73"/>
+          <g>
+            <line class="cls-2" x1="67.51" y1="18.14" x2="78.12" y2="18.46"/>
+            <path class="cls-2" d="M66.82,12.89l-19.71,2.42s-3.27,4.73,1.39,10.49l19.71-2.42"/>
+            <ellipse class="cls-2" cx="67.51" cy="18.14" rx="2.41" ry="5.29" transform="translate(-1.82 9.17) rotate(-7.67)"/>
+          </g>
+          <g>
+            <g>
+              <path class="cls-2" d="M72.85,27.86l.28,19.16s4.5,3.67,10.96-.15l-.28-19.16"/>
+              <ellipse class="cls-2" cx="78.33" cy="27.79" rx="5.48" ry="2.32" transform="translate(-.36 1.04) rotate(-.76)"/>
+            </g>
+            <line class="cls-2" x1="78.12" y1="18.46" x2="78.33" y2="27.79"/>
+          </g>
+        </g>
+        <g>
+          <line class="cls-2" x1="46.08" y1="40.25" x2="56.69" y2="40.57"/>
+          <path class="cls-2" d="M45.38,35.01l-19.71,2.42s-3.27,4.73,1.39,10.49l19.71-2.42"/>
+          <ellipse class="cls-2" cx="46.08" cy="40.25" rx="2.41" ry="5.29" transform="translate(-4.96 6.51) rotate(-7.67)"/>
+        </g>
+        <g>
+          <line class="cls-2" x1="26.48" y1="60.2" x2="37.09" y2="60.52"/>
+          <path class="cls-2" d="M25.79,54.96l-19.71,2.42s-3.27,4.73,1.39,10.49l19.71-2.42"/>
+          <ellipse class="cls-2" cx="26.48" cy="60.2" rx="2.41" ry="5.29" transform="translate(-7.79 4.07) rotate(-7.67)"/>
+        </g>
+        <g>
+          <line class="cls-2" x1="55.79" y1="51.42" x2="56.06" y2="41.19"/>
+          <path class="cls-2" d="M50.35,52.12l2.62,19s4.92,3.13,10.87-1.39l-2.62-19"/>
+          <ellipse class="cls-2" cx="55.79" cy="51.42" rx="5.48" ry="2.32" transform="translate(-6 7.39) rotate(-7.19)"/>
+        </g>
+        <g>
+          <line class="cls-2" x1="36.52" y1="71.08" x2="37.62" y2="60.9"/>
+          <path class="cls-2" d="M31.05,71.37l1.08,19.13s4.65,3.49,10.95-.57l-1.08-19.13"/>
+          <ellipse class="cls-2" cx="36.52" cy="71.08" rx="5.48" ry="2.32" transform="translate(-3.61 1.97) rotate(-2.95)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

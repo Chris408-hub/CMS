@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="16" viewBox="0 0 46 16">
+  <g id="top_arrow" data-name="top arrow" transform="translate(0 1)">
+    <text id="TOP" transform="translate(15 12)" fill="#fff" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="0.08em"><tspan x="0" y="0">TOP</tspan></text>
+    <g id="arrow">
+      <path id="多边形_1" data-name="多边形 1" d="M4.5,0,9,6H0Z" fill="#fff"/>
+      <rect id="矩形_26" data-name="矩形 26" width="1" height="7" transform="translate(4 6)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

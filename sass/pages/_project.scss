@@ -1,0 +1,105 @@
+@use '../abstracts' as a;
+
+#project{
+
+    margin-bottom: -10px;
+.title {
+
+    margin-top: 50px;
+
+
+    h2 {
+        margin-left: 10px;
+    }
+    }
+
+    p{
+        margin: 20px 30px 10px;
+        line-height: 35px;
+    }
+
+#select{
+        margin-top:80px;
+        margin-bottom: 20px;
+    ul{
+        display: flex;
+
+        
+        button{
+            margin-left: 15px;
+
+            font-size:15px;
+            width: 90px;
+            height: 50px;
+            border-radius: 75px;
+            background-color: a.$btn-color;
+            color: #fff;
+            &:hover{
+            border: 2px solid #fff;
+            background-color: a.$btn-hover;
+            }
+        }
+    }
+}
+}
+
+#project-gallery{
+
+    margin: 0 auto;
+
+}
+
+.gallery-box {
+    background-color: rgba(13, 67, 115, 0.5);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+    padding: 20px;
+
+    .project-title{
+        font-size: 12px;
+        color: a.$btn-hover;
+        margin-bottom: 20px;
+
+    }
+}
+
+    .gallery-image{
+        width:85%;
+        height: 30vh;
+        margin: 0 30px;
+        transition: transform 0.2s ease-in-out;
+        &:hover{
+        transform: scale(0.95);
+
+        
+    }
+    }
+
+
+
+@media screen and (min-width: 768px){
+
+#project-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+
+.gallery-box {
+    .project-title{
+        font-size: 15px;
+        margin: 20px 0;
+
+    }
+}
+
+    .gallery-image{
+        width: 350px;
+        height: 220px;
+
+    }
+
+
+
+}
+}

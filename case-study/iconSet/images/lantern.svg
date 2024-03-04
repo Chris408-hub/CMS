@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c30d23;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="lantern">
+    <g>
+      <circle class="cls-1" cx="49.5" cy="49.5" r="49"/>
+      <g>
+        <g>
+          <path class="cls-2" d="M63.8,23.57v-.69c-4.07-2.41-9.01-3.83-14.35-3.83s-10.73,1.55-14.9,4.16v.35h29.24Z"/>
+          <path class="cls-2" d="M34.56,23.22v-5.41h29.24v5.08"/>
+          <path class="cls-2" d="M34.83,57.48c-10.77-2.82-10.5-17.05-10.5-17.05,0-7.06,4.02-13.32,10.23-17.21v.35h29.24v-.69c6.51,3.86,10.78,10.28,10.78,17.55,0,0,.6,15.04-10.5,17.05"/>
+        </g>
+        <rect class="cls-2" x="34.83" y="57.48" width="29.24" height="8.95"/>
+        <line class="cls-2" x1="49.18" y1="2.04" x2="49.18" y2="93.66"/>
+        <line class="cls-2" x1="34.83" y1="93.66" x2="34.83" y2="66.43"/>
+        <line class="cls-2" x1="41.95" y1="93.66" x2="41.95" y2="66.47"/>
+        <line class="cls-2" x1="57" y1="93.66" x2="57" y2="66.47"/>
+        <line class="cls-2" x1="64.08" y1="93.66" x2="64.08" y2="66.43"/>
+        <path class="cls-2" d="M41.95,23.57s-13.77,13.9,0,33.91"/>
+        <path class="cls-2" d="M57.97,23.57s11.58,15.95-.98,33.91"/>
+      </g>
+    </g>
+  </g>
+</svg>

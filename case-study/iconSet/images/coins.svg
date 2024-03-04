@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 99">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 1.02px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #c30d23;
+      }
+
+      .cls-3 {
+        stroke-width: 1.11px;
+      }
+    </style>
+  </defs>
+  <g id="coins">
+    <g id="coins-2" data-name="coins">
+      <circle class="cls-2" cx="49.5" cy="49.5" r="49"/>
+      <g>
+        <g>
+          <ellipse class="cls-1" cx="64.97" cy="60.99" rx="15.83" ry="15.67" transform="translate(-24.1 63.78) rotate(-44.98)"/>
+          <rect class="cls-1" x="59.71" y="55.68" width="10.52" height="10.63" transform="translate(62.18 -28.08) rotate(45.02)"/>
+        </g>
+        <g>
+          <ellipse class="cls-1" cx="48.6" cy="35.16" rx="15.83" ry="15.67" transform="translate(-10.63 44.65) rotate(-44.98)"/>
+          <rect class="cls-1" x="43.34" y="29.85" width="10.52" height="10.63" transform="translate(39.12 -24.07) rotate(45.02)"/>
+        </g>
+        <g>
+          <ellipse class="cls-1" cx="32.72" cy="62.08" rx="15.83" ry="15.67" transform="translate(-34.31 41.3) rotate(-44.98)"/>
+          <rect class="cls-1" x="27.46" y="56.77" width="10.52" height="10.63" transform="translate(53.5 -4.95) rotate(45.02)"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <ellipse class="cls-3" cx="66.58" cy="61.66" rx="17.27" ry="17.09" transform="translate(-24.1 65.11) rotate(-44.98)"/>
+          <rect class="cls-3" x="60.84" y="55.86" width="11.48" height="11.6" transform="translate(63.13 -29.02) rotate(45.02)"/>
+        </g>
+        <g>
+          <ellipse class="cls-3" cx="48.72" cy="33.47" rx="17.27" ry="17.09" transform="translate(-9.4 44.24) rotate(-44.98)"/>
+          <rect class="cls-3" x="42.98" y="27.67" width="11.48" height="11.6" transform="translate(37.96 -24.65) rotate(45.02)"/>
+        </g>
+        <g>
+          <ellipse class="cls-3" cx="31.39" cy="62.85" rx="17.27" ry="17.09" transform="translate(-35.24 40.58) rotate(-44.98)"/>
+          <rect class="cls-3" x="25.65" y="57.05" width="11.48" height="11.6" transform="translate(53.66 -3.78) rotate(45.02)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

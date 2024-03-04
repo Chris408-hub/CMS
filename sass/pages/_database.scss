@@ -1,0 +1,102 @@
+@use '../abstracts/' as a;
+
+
+.db-page{
+    background-color: a.$primary-color;
+    color: #fff;
+    font-family: a.$body-font-family;
+
+    h3{
+        font-size: 20px;
+    }
+
+}
+
+.add-div{
+    background-color: rgba(13, 67, 115, 0.5);
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 10px;
+    padding: 20px;
+
+}
+
+
+.btn {
+        text-decoration: none;    
+        display: inline-block;
+        padding: 10px 20px; 
+        margin-left: 20px;
+        border-radius: 75px;
+        background-color: a.$btn-color;
+        color: #fff;
+         &:hover{
+            background-color: a.$btn-hover;
+         }
+    }
+
+
+
+.db-title{
+
+    font-size: 20px;
+    color: a.$btn-hover;
+}
+
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+ margin-left: 50px;
+
+    label{
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 75px;
+    margin-bottom: 10px;
+    &:last-child{
+        color: #fff;
+        margin-top: 20px;
+        width: 100px;
+        height: 60px;
+        background-color: a.$btn-color;
+        &:hover{
+        background-color: a.$btn-hover;
+        }
+    }
+}
+
+
+
+}
+
+.login-form{
+margin: 15% 10%;
+}
+
+#logout-btn{
+    position: absolute;
+    right:20px;
+    top:20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 20px;
+            padding: 25px 20px; 
+    width: 60px;
+    height: 20px;
+    border-radius: 75px;
+    background-color: a.$btn-color;
+    &:hover{
+    background-color: a.$btn-hover;
+    }
+}

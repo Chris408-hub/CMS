@@ -1,0 +1,21 @@
+@use '../abstracts/variables' as v;
+
+body {
+    font-family: v.$body-font-family;
+    background-color: v.$primary-color;
+    color:#fff;
+}
+
+.hidden{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+

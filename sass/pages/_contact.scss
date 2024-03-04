@@ -1,0 +1,284 @@
+@use '../abstracts' as a;
+
+
+
+#contact{
+    margin-top:50px;
+
+
+
+    
+    h2{
+       margin-bottom: 50px;
+           font-size: 15px;
+    }
+
+    p{
+        line-height: 30px;
+        margin:30px 30px;
+        font-size: 12px;
+    }
+
+}
+
+#find{
+    
+
+    
+#send-email{
+    width: 80%;
+    height:60px;
+    margin: 0 auto;    
+    border-radius: 75px;
+    background-color: #fff;
+    color: rgb(52, 52, 52);
+    display: flex;
+    justify-content: space-between;
+
+    #email-placeholder{
+        margin: 20px;
+        font-size: 15px;
+
+
+    img{
+        width: 25px;
+        height: 25px;
+    }
+
+    }
+
+    a{
+        width: 30%;
+        height: 100%;
+        border-radius: 75px;
+        background-color: a.$btn-color;
+        z-index: 333;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+
+        &:hover{
+            border: 2px solid #fff;
+            background-color: a.$btn-hover;
+
+        }
+
+    }
+}
+
+
+
+
+   #social-media{
+        width: 85%;
+        margin: 40px auto;
+        border: 2px solid a.$btn-hover;
+        border-radius: 10%;
+        font-size: 12px;
+        img{
+            width: 25px;
+            height: 25px;
+        }
+
+    .social-media-icon{
+
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+
+        
+            p {
+                margin: 50px 100px 20px 80px;
+            }
+        }
+
+   }
+   }
+    
+    
+
+
+
+
+#send-message{
+        background-color: rgba(13, 67, 115, 0.5);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 5%;
+
+
+        h2{
+            padding-top: 50px;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+        img{
+            width: 35px;
+            height: 35px;
+        }
+
+    .form-message #message-btn{
+        width: 25%;
+        height: 60px;
+        background-color: a.$btn-color;
+        color: #fff;
+        font-size:18px;
+        &:hover{
+            border: 2px solid #fff;      
+            background-color: a.$btn-hover;
+        }
+    }
+
+    .form-message textarea{
+        height: 200px;
+    }
+    
+    .form-message input, textarea, button{
+        width: 60%;
+        height: 40px;
+
+
+        margin:20px 90px;
+        border-radius: 55px;
+        border:2px solid a.$btn-color;
+  
+
+
+    }   
+
+  
+    }
+
+#thanks-light-box{
+
+      width: 60%;
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: a.$primary-color;
+      color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+
+    #close-btn{
+        background-color: transparent;
+        border: none;
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+    p{
+        margin: 200px 50px;
+        line-height: 30px;
+        
+    }
+
+    .heart-icon{
+        position: absolute;
+        top: 70%;
+        left: 50%;    
+    }
+
+}
+
+
+@media screen and (min-width: 768px){
+
+#content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#contact{
+
+    h2{
+           font-size: 20px;
+    }
+
+    p{
+
+        font-size: 15px;
+    }
+
+}
+
+
+
+#find{
+    #send-email{
+        
+        height: 75px;
+
+
+        p{
+            font-size:20px;
+
+            img{
+            width: 50%;
+            height: 50%;
+            }
+        }
+
+        a{
+            width:25%;
+        }
+
+    }
+
+   #social-media{
+        height: 200px;
+   }
+   }
+
+#send-message{
+    margin: 30px auto;
+.form-message #message-btn{
+    width: 22%;
+    height: 80px;
+}
+
+
+.form-message input, textarea,button{
+    width: 65%;
+    height: 45px;
+    margin:20px 15%;
+}    
+    
+}
+}
+
+
+@media screen and (min-width: 1920px){
+
+#find{
+
+#send-email{
+    width: 60%;
+}
+        a{
+            width:20%;
+        }
+
+    }
+
+    .form-message #message-btn{
+    width:15%;
+    height: 80px;
+}
+
+.form-message input, textarea,button{
+    width: 60%;
+    height: 90px;
+    margin:20px 15%;
+}  
+
+}
+
+
+

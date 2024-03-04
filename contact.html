@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Contact me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script type="module" defer src="js/main.js"></script>
+    
+</head>
+
+<body data-page="contact-page">
+    <header id="main-header">
+        <div id="logo">
+            <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+        </div>
+    <nav id="main-nav">
+        <h2 class="hidden">Main Navigation</h2>
+        <button id="button" class="hamburger-button"></button>
+        <div id="burger-con">
+            <ul id="burger-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="project.html">PROJECT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <section id="content">
+
+
+    <section id="contact">
+        <h2><img src="images/Icon simple-minutemailer.svg">Contact me</h2>
+        <p>If you have any questions or are interested in potential collaboration, please don't hesitate to reach out to me using the contact form on my Contact page. I'm always on the lookout for new opportunities to team up and create cutting-edge websites. I look forward to hearing from you soon.</p>
+    </section>
+
+    <section id="find">
+
+        <div id="send-email" class="find-me email">
+            <p id="email-placeholder"><img src="images/Icon material-email.svg" alt="email icon">Email</p>
+            <a href="mailto:yjie9093@gmail.com"><p id="send">Send</p></a>
+        </div>
+    
+
+
+        <div id="social-media" class="find-me media">
+            <h2><img src="images/Icon awesome-link.svg" alt="link icon">Find me</h2>
+            <div class="social-media-icon">
+                <p><img src="images/Icon awesome-github.svg" alt="github icon"><a href="https://github.com/Chris408-hub?tab=repositories">-GitHub</a></p>
+                <p><img src="images/Icon awesome-linkedin.svg" alt="linkedin icon"><a href="">-LinkedIn</a></p>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <form id="send-message">
+        <h2><img src="images/message.svg" alt="leave me a message icon">Leave Me A Message</h2>
+        <div class="form-message">
+            <input type="text" id="fname" name="firstname" placeholder="     First Name*" required>
+            </div>
+
+            <div class="form-message">
+            <input type="text" id="lname" name="lastname" placeholder="     Last Name*" required>
+            </div>
+
+            <div class="form-message">
+            <input type="email" id="email" name="email" placeholder="     Email*" required>
+            </div>
+            <div class="form-message">
+            <textarea id="messages" name="messages" rows="5" placeholder="      LEAVE ME A Message*" required></textarea>
+            </div>
+            <div class="form-message">
+            <button type="submit" id="message-btn">Send</button>
+
+        </div>
+        <div id="feedback"></div>
+            
+    </form>
+
+        <div id="thanks-light-box">
+            <button id="close-btn"><img src="images/close-thanks.svg" alt="close button"></button>
+            <h2 class="hidden">thanks for your time</h2>
+            <p>Thank you for your message.Thank you for visiting my portfolio website. We'll be in touch soon.</p>
+            <div class="heart-icon"><img src="images/Icon open-heart.svg" alt="heart" class="heart"></div>      
+        </div>
+
+    </section>   
+
+    <footer id="main-footer">
+        <p>2024 © Jie Yang. All rights reserved.</p>
+        <a href="#main-header"><img src="images/toparrow.svg" alt="top arrow"></a>
+    </footer>
+
+
+</body>
+</html>

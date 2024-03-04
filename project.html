@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script type="module" defer src="js/main.js"></script>
+
+
+</head>
+<body data-page="project-page">
+<header id="main-header">
+        <div id="logo">
+            <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+        </div>
+        <nav id="main-nav">
+        <h2 class="hidden">Main Navigation</h2>
+        <button id="button" class="hamburger-button"></button>
+        <div id="burger-con">
+            <ul id="burger-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+    <section id="project">
+        <div class="title">
+            <h2><img src="images/Icon material-computer.svg" alt="computer">Projects gallery</h2>
+        </div>
+        <p>Feel free to browse through my portfolio to explore some of my completed projects. These examples showcase my proficiency in designing websites that are not only visually appealing but also responsive and accessible. Click on the project thumbnails for in-depth insights, including the technologies and techniques employed in their development.</p>
+
+        <div class="video-player">
+            <div class="controls">
+                <button class="video-btn" id="playButton"><img src="images/play.svg" alt="play"></button>
+                <button class="video-btn" id="pauseButton"><img src="images/pause.svg" alt="pause"></button>
+                <button class="video-btn" id="restartButton"><img src="images/replay.svg" alt="restart"></button>
+            </div>
+            <video id="myVideo" controls>
+            <source src="video/demo reel.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+        <nav id="select">
+            <ul>
+            <li><button id="all">ALL  -></button></li>
+            <li><button id="code">CODE  -></button></li>
+            <li><button id="design">DESIGN  -></button></li>
+            </ul>
+        </nav>
+
+
+        <div class="gallery" id="project-gallery">
+            
+        </div>  
+
+    </section>
+
+
+    <footer id="main-footer">
+        <p>2024 © Jie Yang. All rights reserved.</p>
+        <a href="#main-header"><img src="images/toparrow.svg" alt="top arrow"></a>
+    </footer>
+
+</body>
+</html>

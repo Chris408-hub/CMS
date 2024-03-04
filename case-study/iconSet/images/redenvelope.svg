@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #171c61;
+        font-family: AdobeSongStd-Light-GBpc-EUC-H, 'Adobe Song Std';
+        font-size: 13.38px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: .57px;
+      }
+
+      .cls-2 {
+        fill: #c30d23;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="_图层_27" data-name="图层 27">
+    <circle class="cls-2" cx="49.5" cy="49.5" r="49"/>
+    <g>
+      <rect class="cls-3" x="30.27" y="22.77" width="41.92" height="55.15"/>
+      <polyline class="cls-3" points="30.27 22.77 35.32 32.89 46.7 32.89"/>
+      <circle class="cls-3" cx="51.23" cy="32.89" r="4.53"/>
+      <circle class="cls-3" cx="51.55" cy="54.96" r="10.4"/>
+      <text class="cls-1" transform="translate(43.89 58.76) scale(1.04 1)"><tspan x="0" y="0">福</tspan></text>
+      <polyline class="cls-3" points="55.76 32.89 66.64 32.89 72.19 22.77"/>
+    </g>
+  </g>
+</svg>
